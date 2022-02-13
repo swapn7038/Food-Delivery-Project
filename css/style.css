@@ -1,0 +1,114 @@
+/* css reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* CSS Variable */
+
+:root {
+    --navbar-height: 59px;
+}
+
+
+/* Navigation Bar */
+
+#navbar {
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+
+/*  Navigation Bar : Logo and Image */
+
+#logo {
+    margin: 34px 45;
+}
+
+#logo img {
+    height: 56px;
+    margin: 34px 45px;
+}
+
+
+/*  Navigation Bar : Lists Stylin */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Css variables */
+
+:root {
+    --navbar-height: 59px;
+}
+
+
+/* NAvbar */
+
+#navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* height: 100vh; */
+    background-color: rgb(222, 199, 243);
+}
+
+
+/* #navbar::before {
+    content: "";
+    background-color: aqua;
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.1;
+} */
+
+
+/* logo and images */
+
+#logo {
+    margin: 30px 30px;
+}
+
+#logo img {
+    height: 59px;
+    margin: 3px 6px;
+}
+
+
+/* .item {
+    color: rgb(102, 82, 14);
+} */
+
+ul {
+    display: flex;
+    /* margin: 10px; */
+}
+
+ul li {
+    /* color: white; */
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+ul li a {
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: lawngreen;
+}
+
+ul li a:hover {
+    color: rgb(14, 10, 10);
+    background-color: rgb(16, 238, 201);
+    /* text-decoration: wavy; */
+    /* text-shadow: 10px; */
+}
